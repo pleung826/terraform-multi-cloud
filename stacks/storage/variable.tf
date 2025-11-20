@@ -1,3 +1,11 @@
+variable "region" {
+  type = "string"
+}
+
+variable "project" {
+  type = "string"
+}
+
 variable "buckets" {
   type = map(object({
     name              = string
